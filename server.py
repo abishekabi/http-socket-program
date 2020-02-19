@@ -139,8 +139,8 @@ class MyServer(object):
 
 if __name__ == "__main__":
     import sys
-    HOST = sys.argv[1] #'127.0.0.1'  
-    PORT = int(sys.argv[2]) #4000
+    HOST = '127.0.0.1' #sys.argv[1] #  
+    PORT = int(sys.argv[1]) #4000
     ms = MyServer(HOST, PORT)
     ms.start()
 
