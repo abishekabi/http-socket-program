@@ -112,6 +112,7 @@ class MyServer(object):
             #client.close()
         except Exception as e:
             print("_handle_client ERROR!!", e)
+            
  
 
     def _generate_headers(self, response_code):
