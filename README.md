@@ -1,5 +1,5 @@
 # Http-socket-program
-Implemention of HTTP client and server that run a simplified version of HTTP/1.1
+Implementation of HTTP client and server that run a simplified version of HTTP/1.1
 
 HTTP Server file (server.py):
 - `python server <port>`
